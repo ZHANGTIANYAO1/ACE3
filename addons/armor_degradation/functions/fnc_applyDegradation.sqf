@@ -79,7 +79,7 @@ private _cellCount = 0;
     _cell set [2, _hitCount + 1];
     _cell set [3, time];
 
-    TRACE_4("Zone [%1,%2,%3] degraded: %4 -> %5",_layer,_row,_col,_currentIntegrity,_newIntegrity);
+    TRACE_5("Zone [%1,%2,%3] degraded: %4 -> %5",_layer,_row,_col,_currentIntegrity,_newIntegrity);
 
     _totalIntegrity = _totalIntegrity + _newIntegrity;
     _cellCount = _cellCount + 1;
