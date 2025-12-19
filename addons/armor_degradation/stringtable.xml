@@ -3,391 +3,391 @@
     <Package name="Armor_Degradation">
         <!-- Category -->
         <Key ID="STR_ACE_Armor_Degradation_Category">
-           <English>Armor Degradation</English>
-           <German>Rüstungsabnutzung</German>
-           <Spanish>Degradación de Armadura</Spanish>
-           <French>Dégradation d'Armure</French>
-           <Polish>Degradacja Pancerza</Polish>
-           <Russian>Износ Брони</Russian>
-           <Japanese>アーマー劣化</Japanese>
-           <Chinese>护甲损耗</Chinese>
-           <Chinesesimp>护甲损耗</Chinesesimp>
-           <Korean>방어구 손상</Korean>
-           <Portuguese>Degradação de Armadura</Portuguese>
-           <Italian>Degradazione Armatura</Italian>
-           <Czech>Opotřebení Zbroje</Czech>
-           <Turkish>Zırh Aşınması</Turkish>
+            <English>Armor Degradation</English>
+            <German>Rüstungsabnutzung</German>
+            <Spanish>Degradación de Armadura</Spanish>
+            <French>Dégradation d'Armure</French>
+            <Polish>Degradacja Pancerza</Polish>
+            <Russian>Износ Брони</Russian>
+            <Japanese>アーマー劣化</Japanese>
+            <Chinese>护甲损耗</Chinese>
+            <Chinesesimp>护甲损耗</Chinesesimp>
+            <Korean>방어구 손상</Korean>
+            <Portuguese>Degradação de Armadura</Portuguese>
+            <Italian>Degradazione Armatura</Italian>
+            <Czech>Opotřebení Zbroje</Czech>
+            <Turkish>Zırh Aşınması</Turkish>
         </Key>
-        
+
         <!-- Settings -->
         <Key ID="STR_ACE_Armor_Degradation_Setting_Enabled">
-           <English>Enable Armor Degradation</English>
-           <German>Rüstungsabnutzung aktivieren</German>
-           <Spanish>Activar Degradación de Armadura</Spanish>
-           <French>Activer Dégradation d'Armure</French>
-           <Polish>Włącz Degradację Pancerza</Polish>
-           <Russian>Включить износ брони</Russian>
-           <Japanese>アーマー劣化を有効化</Japanese>
-           <Chinese>启用护甲损耗</Chinese>
-           <Chinesesimp>启用护甲损耗</Chinesesimp>
-           <Korean>방어구 손상 활성화</Korean>
+            <English>Enable Armor Degradation</English>
+            <German>Rüstungsabnutzung aktivieren</German>
+            <Spanish>Activar Degradación de Armadura</Spanish>
+            <French>Activer Dégradation d'Armure</French>
+            <Polish>Włącz Degradację Pancerza</Polish>
+            <Russian>Включить износ брони</Russian>
+            <Japanese>アーマー劣化を有効化</Japanese>
+            <Chinese>启用护甲损耗</Chinese>
+            <Chinesesimp>启用护甲损耗</Chinesesimp>
+            <Korean>방어구 손상 활성화</Korean>
         </Key>
         <Key ID="STR_ACE_Armor_Degradation_Setting_Enabled_Desc">
-           <English>Enables the armor degradation system. Armor will lose effectiveness when hit.</English>
-           <German>Aktiviert das Rüstungsabnutzungssystem. Rüstung verliert bei Treffern an Wirksamkeit.</German>
-           <Spanish>Activa el sistema de degradación de armadura. La armadura perderá efectividad al ser impactada.</Spanish>
-           <French>Active le système de dégradation d'armure. L'armure perdra en efficacité lorsqu'elle sera touchée.</French>
-           <Polish>Włącza system degradacji pancerza. Pancerz traci skuteczność przy trafieniach.</Polish>
-           <Russian>Включает систему износа брони. Броня теряет эффективность при попаданиях.</Russian>
-           <Japanese>アーマー劣化システムを有効にします。被弾時にアーマーの有効性が低下します。</Japanese>
-           <Chinese>启用护甲损耗系统。护甲被击中时会降低防护效果。</Chinese>
-           <Chinesesimp>启用护甲损耗系统。护甲被击中时会降低防护效果。</Chinesesimp>
-           <Korean>방어구 손상 시스템을 활성화합니다. 피격시 방어구 효과가 감소합니다.</Korean>
+            <English>Enables the armor degradation system. Armor will lose effectiveness when hit.</English>
+            <German>Aktiviert das Rüstungsabnutzungssystem. Rüstung verliert bei Treffern an Wirksamkeit.</German>
+            <Spanish>Activa el sistema de degradación de armadura. La armadura perderá efectividad al ser impactada.</Spanish>
+            <French>Active le système de dégradation d'armure. L'armure perdra en efficacité lorsqu'elle sera touchée.</French>
+            <Polish>Włącza system degradacji pancerza. Pancerz traci skuteczność przy trafieniach.</Polish>
+            <Russian>Включает систему износа брони. Броня теряет эффективность при попаданиях.</Russian>
+            <Japanese>アーマー劣化システムを有効にします。被弾時にアーマーの有効性が低下します。</Japanese>
+            <Chinese>启用护甲损耗系统。护甲被击中时会降低防护效果。</Chinese>
+            <Chinesesimp>启用护甲损耗系统。护甲被击中时会降低防护效果。</Chinesesimp>
+            <Korean>방어구 손상 시스템을 활성화합니다. 피격시 방어구 효과가 감소합니다.</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Setting_DegradationMultiplier">
-           <English>Degradation Multiplier</English>
-           <German>Abnutzungsmultiplikator</German>
-           <Spanish>Multiplicador de Degradación</Spanish>
-           <French>Multiplicateur de Dégradation</French>
-           <Polish>Mnożnik Degradacji</Polish>
-           <Russian>Множитель износа</Russian>
-           <Japanese>劣化倍率</Japanese>
-           <Chinese>损耗倍率</Chinese>
-           <Chinesesimp>损耗倍率</Chinesesimp>
-           <Korean>손상 배율</Korean>
+            <English>Degradation Multiplier</English>
+            <German>Abnutzungsmultiplikator</German>
+            <Spanish>Multiplicador de Degradación</Spanish>
+            <French>Multiplicateur de Dégradation</French>
+            <Polish>Mnożnik Degradacji</Polish>
+            <Russian>Множитель износа</Russian>
+            <Japanese>劣化倍率</Japanese>
+            <Chinese>损耗倍率</Chinese>
+            <Chinesesimp>损耗倍率</Chinesesimp>
+            <Korean>손상 배율</Korean>
         </Key>
         <Key ID="STR_ACE_Armor_Degradation_Setting_DegradationMultiplier_Desc">
-           <English>Multiplier for armor degradation rate. Higher values mean armor degrades faster.</English>
-           <German>Multiplikator für die Abnutzungsrate der Rüstung. Höhere Werte bedeuten schnellere Abnutzung.</German>
-           <Spanish>Multiplicador para la tasa de degradación de armadura. Valores más altos significan degradación más rápida.</Spanish>
-           <French>Multiplicateur pour le taux de dégradation d'armure. Des valeurs plus élevées signifient une dégradation plus rapide.</French>
-           <Polish>Mnożnik szybkości degradacji pancerza. Wyższe wartości oznaczają szybszą degradację.</Polish>
-           <Russian>Множитель скорости износа брони. Более высокие значения означают более быстрый износ.</Russian>
-           <Japanese>アーマー劣化率の倍率。高い値ほど劣化が速くなります。</Japanese>
-           <Chinese>护甲损耗速率倍率。数值越高，损耗越快。</Chinese>
-           <Chinesesimp>护甲损耗速率倍率。数值越高，损耗越快。</Chinesesimp>
-           <Korean>방어구 손상 속도 배율. 높을수록 손상이 빨라집니다.</Korean>
+            <English>Multiplier for armor degradation rate. Higher values mean armor degrades faster.</English>
+            <German>Multiplikator für die Abnutzungsrate der Rüstung. Höhere Werte bedeuten schnellere Abnutzung.</German>
+            <Spanish>Multiplicador para la tasa de degradación de armadura. Valores más altos significan degradación más rápida.</Spanish>
+            <French>Multiplicateur pour le taux de dégradation d'armure. Des valeurs plus élevées signifient une dégradation plus rapide.</French>
+            <Polish>Mnożnik szybkości degradacji pancerza. Wyższe wartości oznaczają szybszą degradację.</Polish>
+            <Russian>Множитель скорости износа брони. Более высокие значения означают более быстрый износ.</Russian>
+            <Japanese>アーマー劣化率の倍率。高い値ほど劣化が速くなります。</Japanese>
+            <Chinese>护甲损耗速率倍率。数值越高，损耗越快。</Chinese>
+            <Chinesesimp>护甲损耗速率倍率。数值越高，损耗越快。</Chinesesimp>
+            <Korean>방어구 손상 속도 배율. 높을수록 손상이 빨라집니다.</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Setting_CeramicDegradation">
-           <English>Ceramic Degradation Rate</English>
-           <German>Keramik-Abnutzungsrate</German>
-           <Spanish>Tasa de Degradación de Cerámica</Spanish>
-           <French>Taux de Dégradation Céramique</French>
-           <Polish>Szybkość Degradacji Ceramiki</Polish>
-           <Russian>Скорость износа керамики</Russian>
-           <Japanese>セラミック劣化率</Japanese>
-           <Chinese>陶瓷损耗率</Chinese>
-           <Chinesesimp>陶瓷损耗率</Chinesesimp>
-           <Korean>세라믹 손상률</Korean>
+            <English>Ceramic Degradation Rate</English>
+            <German>Keramik-Abnutzungsrate</German>
+            <Spanish>Tasa de Degradación de Cerámica</Spanish>
+            <French>Taux de Dégradation Céramique</French>
+            <Polish>Szybkość Degradacji Ceramiki</Polish>
+            <Russian>Скорость износа керамики</Russian>
+            <Japanese>セラミック劣化率</Japanese>
+            <Chinese>陶瓷损耗率</Chinese>
+            <Chinesesimp>陶瓷损耗率</Chinesesimp>
+            <Korean>세라믹 손상률</Korean>
         </Key>
         <Key ID="STR_ACE_Armor_Degradation_Setting_CeramicDegradation_Desc">
-           <English>Base degradation rate for ceramic armor plates. Ceramic degrades faster but provides better initial protection.</English>
-           <German>Basis-Abnutzungsrate für Keramikpanzerplatten. Keramik nutzt sich schneller ab, bietet aber besseren anfänglichen Schutz.</German>
-           <Spanish>Tasa de degradación base para placas de armadura de cerámica. La cerámica se degrada más rápido pero proporciona mejor protección inicial.</Spanish>
-           <French>Taux de dégradation de base pour les plaques d'armure en céramique. La céramique se dégrade plus vite mais offre une meilleure protection initiale.</French>
-           <Polish>Bazowa szybkość degradacji płyt ceramicznych. Ceramika degraduje się szybciej, ale zapewnia lepszą początkową ochronę.</Polish>
-           <Russian>Базовая скорость износа керамических бронепластин. Керамика изнашивается быстрее, но обеспечивает лучшую начальную защиту.</Russian>
-           <Japanese>セラミックアーマープレートの基本劣化率。セラミックは劣化が速いですが、初期防護力は高いです。</Japanese>
-           <Chinese>陶瓷护甲板的基础损耗率。陶瓷损耗更快，但提供更好的初始防护。</Chinese>
-           <Chinesesimp>陶瓷护甲板的基础损耗率。陶瓷损耗更快，但提供更好的初始防护。</Chinesesimp>
-           <Korean>세라믹 방호판의 기본 손상률. 세라믹은 빠르게 손상되지만 초기 방호력이 우수합니다.</Korean>
+            <English>Base degradation rate for ceramic armor plates. Ceramic degrades faster but provides better initial protection.</English>
+            <German>Basis-Abnutzungsrate für Keramikpanzerplatten. Keramik nutzt sich schneller ab, bietet aber besseren anfänglichen Schutz.</German>
+            <Spanish>Tasa de degradación base para placas de armadura de cerámica. La cerámica se degrada más rápido pero proporciona mejor protección inicial.</Spanish>
+            <French>Taux de dégradation de base pour les plaques d'armure en céramique. La céramique se dégrade plus vite mais offre une meilleure protection initiale.</French>
+            <Polish>Bazowa szybkość degradacji płyt ceramicznych. Ceramika degraduje się szybciej, ale zapewnia lepszą początkową ochronę.</Polish>
+            <Russian>Базовая скорость износа керамических бронепластин. Керамика изнашивается быстрее, но обеспечивает лучшую начальную защиту.</Russian>
+            <Japanese>セラミックアーマープレートの基本劣化率。セラミックは劣化が速いですが、初期防護力は高いです。</Japanese>
+            <Chinese>陶瓷护甲板的基础损耗率。陶瓷损耗更快，但提供更好的初始防护。</Chinese>
+            <Chinesesimp>陶瓷护甲板的基础损耗率。陶瓷损耗更快，但提供更好的初始防护。</Chinesesimp>
+            <Korean>세라믹 방호판의 기본 손상률. 세라믹은 빠르게 손상되지만 초기 방호력이 우수합니다.</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Setting_SteelDegradation">
-           <English>Steel Degradation Rate</English>
-           <German>Stahl-Abnutzungsrate</German>
-           <Spanish>Tasa de Degradación de Acero</Spanish>
-           <French>Taux de Dégradation Acier</French>
-           <Polish>Szybkość Degradacji Stali</Polish>
-           <Russian>Скорость износа стали</Russian>
-           <Japanese>スチール劣化率</Japanese>
-           <Chinese>钢板损耗率</Chinese>
-           <Chinesesimp>钢板损耗率</Chinesesimp>
-           <Korean>강철 손상률</Korean>
+            <English>Steel Degradation Rate</English>
+            <German>Stahl-Abnutzungsrate</German>
+            <Spanish>Tasa de Degradación de Acero</Spanish>
+            <French>Taux de Dégradation Acier</French>
+            <Polish>Szybkość Degradacji Stali</Polish>
+            <Russian>Скорость износа стали</Russian>
+            <Japanese>スチール劣化率</Japanese>
+            <Chinese>钢板损耗率</Chinese>
+            <Chinesesimp>钢板损耗率</Chinesesimp>
+            <Korean>강철 손상률</Korean>
         </Key>
         <Key ID="STR_ACE_Armor_Degradation_Setting_SteelDegradation_Desc">
-           <English>Base degradation rate for steel armor plates. Steel is more durable but heavier.</English>
-           <German>Basis-Abnutzungsrate für Stahlpanzerplatten. Stahl ist haltbarer, aber schwerer.</German>
-           <Spanish>Tasa de degradación base para placas de armadura de acero. El acero es más duradero pero más pesado.</Spanish>
-           <French>Taux de dégradation de base pour les plaques d'armure en acier. L'acier est plus durable mais plus lourd.</French>
-           <Polish>Bazowa szybkość degradacji płyt stalowych. Stal jest trwalsza, ale cięższa.</Polish>
-           <Russian>Базовая скорость износа стальных бронепластин. Сталь более долговечна, но тяжелее.</Russian>
-           <Japanese>スチールアーマープレートの基本劣化率。スチールはより耐久性がありますが重いです。</Japanese>
-           <Chinese>钢制护甲板的基础损耗率。钢板更耐久但更重。</Chinese>
-           <Chinesesimp>钢制护甲板的基础损耗率。钢板更耐久但更重。</Chinesesimp>
-           <Korean>강철 방호판의 기본 손상률. 강철은 내구성이 높지만 무겁습니다.</Korean>
+            <English>Base degradation rate for steel armor plates. Steel is more durable but heavier.</English>
+            <German>Basis-Abnutzungsrate für Stahlpanzerplatten. Stahl ist haltbarer, aber schwerer.</German>
+            <Spanish>Tasa de degradación base para placas de armadura de acero. El acero es más duradero pero más pesado.</Spanish>
+            <French>Taux de dégradation de base pour les plaques d'armure en acier. L'acier est plus durable mais plus lourd.</French>
+            <Polish>Bazowa szybkość degradacji płyt stalowych. Stal jest trwalsza, ale cięższa.</Polish>
+            <Russian>Базовая скорость износа стальных бронепластин. Сталь более долговечна, но тяжелее.</Russian>
+            <Japanese>スチールアーマープレートの基本劣化率。スチールはより耐久性がありますが重いです。</Japanese>
+            <Chinese>钢制护甲板的基础损耗率。钢板更耐久但更重。</Chinese>
+            <Chinesesimp>钢制护甲板的基础损耗率。钢板更耐久但更重。</Chinesesimp>
+            <Korean>강철 방호판의 기본 손상률. 강철은 내구성이 높지만 무겁습니다.</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Setting_ShowHUD">
-           <English>Show Armor Status HUD</English>
-           <German>Rüstungsstatus-HUD anzeigen</German>
-           <Spanish>Mostrar HUD de Estado de Armadura</Spanish>
-           <French>Afficher HUD État de l'Armure</French>
-           <Polish>Pokaż HUD Stanu Pancerza</Polish>
-           <Russian>Показать HUD состояния брони</Russian>
-           <Japanese>アーマー状態HUDを表示</Japanese>
-           <Chinese>显示护甲状态HUD</Chinese>
-           <Chinesesimp>显示护甲状态HUD</Chinesesimp>
-           <Korean>방어구 상태 HUD 표시</Korean>
+            <English>Show Armor Status HUD</English>
+            <German>Rüstungsstatus-HUD anzeigen</German>
+            <Spanish>Mostrar HUD de Estado de Armadura</Spanish>
+            <French>Afficher HUD État de l'Armure</French>
+            <Polish>Pokaż HUD Stanu Pancerza</Polish>
+            <Russian>Показать HUD состояния брони</Russian>
+            <Japanese>アーマー状態HUDを表示</Japanese>
+            <Chinese>显示护甲状态HUD</Chinese>
+            <Chinesesimp>显示护甲状态HUD</Chinesesimp>
+            <Korean>방어구 상태 HUD 표시</Korean>
         </Key>
         <Key ID="STR_ACE_Armor_Degradation_Setting_ShowHUD_Desc">
-           <English>Shows armor degradation status on the HUD.</English>
-           <German>Zeigt den Rüstungsabnutzungsstatus auf dem HUD an.</German>
-           <Spanish>Muestra el estado de degradación de armadura en el HUD.</Spanish>
-           <French>Affiche l'état de dégradation de l'armure sur le HUD.</French>
-           <Polish>Pokazuje stan degradacji pancerza na HUD.</Polish>
-           <Russian>Показывает состояние износа брони на HUD.</Russian>
-           <Japanese>HUDにアーマー劣化状態を表示します。</Japanese>
-           <Chinese>在HUD上显示护甲损耗状态。</Chinese>
-           <Chinesesimp>在HUD上显示护甲损耗状态。</Chinesesimp>
-           <Korean>HUD에 방어구 손상 상태를 표시합니다.</Korean>
+            <English>Shows armor degradation status on the HUD.</English>
+            <German>Zeigt den Rüstungsabnutzungsstatus auf dem HUD an.</German>
+            <Spanish>Muestra el estado de degradación de armadura en el HUD.</Spanish>
+            <French>Affiche l'état de dégradation de l'armure sur le HUD.</French>
+            <Polish>Pokazuje stan degradacji pancerza na HUD.</Polish>
+            <Russian>Показывает состояние износа брони на HUD.</Russian>
+            <Japanese>HUDにアーマー劣化状態を表示します。</Japanese>
+            <Chinese>在HUD上显示护甲损耗状态。</Chinese>
+            <Chinesesimp>在HUD上显示护甲损耗状态。</Chinesesimp>
+            <Korean>HUD에 방어구 손상 상태를 표시합니다.</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Setting_EnableRepair">
-           <English>Enable Armor Repair</English>
-           <German>Rüstungsreparatur aktivieren</German>
-           <Spanish>Activar Reparación de Armadura</Spanish>
-           <French>Activer Réparation d'Armure</French>
-           <Polish>Włącz Naprawę Pancerza</Polish>
-           <Russian>Включить ремонт брони</Russian>
-           <Japanese>アーマー修理を有効化</Japanese>
-           <Chinese>启用护甲修复</Chinese>
-           <Chinesesimp>启用护甲修复</Chinesesimp>
-           <Korean>방어구 수리 활성화</Korean>
+            <English>Enable Armor Repair</English>
+            <German>Rüstungsreparatur aktivieren</German>
+            <Spanish>Activar Reparación de Armadura</Spanish>
+            <French>Activer Réparation d'Armure</French>
+            <Polish>Włącz Naprawę Pancerza</Polish>
+            <Russian>Включить ремонт брони</Russian>
+            <Japanese>アーマー修理を有効化</Japanese>
+            <Chinese>启用护甲修复</Chinese>
+            <Chinesesimp>启用护甲修复</Chinesesimp>
+            <Korean>방어구 수리 활성화</Korean>
         </Key>
         <Key ID="STR_ACE_Armor_Degradation_Setting_EnableRepair_Desc">
-           <English>Allows armor to be repaired. Repair limits depend on material type.</English>
-           <German>Ermöglicht die Reparatur von Rüstung. Reparaturgrenzen hängen vom Materialtyp ab.</German>
-           <Spanish>Permite reparar la armadura. Los límites de reparación dependen del tipo de material.</Spanish>
-           <French>Permet de réparer l'armure. Les limites de réparation dépendent du type de matériau.</French>
-           <Polish>Pozwala na naprawę pancerza. Limity naprawy zależą od typu materiału.</Polish>
-           <Russian>Позволяет ремонтировать броню. Пределы ремонта зависят от типа материала.</Russian>
-           <Japanese>アーマーの修理を許可します。修理限界は材質によって異なります。</Japanese>
-           <Chinese>允许修复护甲。修复上限取决于材料类型。</Chinese>
-           <Chinesesimp>允许修复护甲。修复上限取决于材料类型。</Chinesesimp>
-           <Korean>방어구 수리를 허용합니다. 수리 한계는 재질에 따라 다릅니다.</Korean>
+            <English>Allows armor to be repaired. Repair limits depend on material type.</English>
+            <German>Ermöglicht die Reparatur von Rüstung. Reparaturgrenzen hängen vom Materialtyp ab.</German>
+            <Spanish>Permite reparar la armadura. Los límites de reparación dependen del tipo de material.</Spanish>
+            <French>Permet de réparer l'armure. Les limites de réparation dépendent du type de matériau.</French>
+            <Polish>Pozwala na naprawę pancerza. Limity naprawy zależą od typu materiału.</Polish>
+            <Russian>Позволяет ремонтировать броню. Пределы ремонта зависят от типа материала.</Russian>
+            <Japanese>アーマーの修理を許可します。修理限界は材質によって異なります。</Japanese>
+            <Chinese>允许修复护甲。修复上限取决于材料类型。</Chinese>
+            <Chinesesimp>允许修复护甲。修复上限取决于材料类型。</Chinesesimp>
+            <Korean>방어구 수리를 허용합니다. 수리 한계는 재질에 따라 다릅니다.</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Setting_RepairEffectiveness">
-           <English>Repair Effectiveness</English>
-           <German>Reparatureffektivität</German>
-           <Spanish>Efectividad de Reparación</Spanish>
-           <French>Efficacité de Réparation</French>
-           <Polish>Skuteczność Naprawy</Polish>
-           <Russian>Эффективность ремонта</Russian>
-           <Japanese>修理効果</Japanese>
-           <Chinese>修复效率</Chinese>
-           <Chinesesimp>修复效率</Chinesesimp>
-           <Korean>수리 효과</Korean>
+            <English>Repair Effectiveness</English>
+            <German>Reparatureffektivität</German>
+            <Spanish>Efectividad de Reparación</Spanish>
+            <French>Efficacité de Réparation</French>
+            <Polish>Skuteczność Naprawy</Polish>
+            <Russian>Эффективность ремонта</Russian>
+            <Japanese>修理効果</Japanese>
+            <Chinese>修复效率</Chinese>
+            <Chinesesimp>修复效率</Chinesesimp>
+            <Korean>수리 효과</Korean>
         </Key>
         <Key ID="STR_ACE_Armor_Degradation_Setting_RepairEffectiveness_Desc">
-           <English>How effective armor repairs are. Higher values restore more integrity per repair action.</English>
-           <German>Wie effektiv Rüstungsreparaturen sind. Höhere Werte stellen mehr Integrität pro Reparaturaktion wieder her.</German>
-           <Spanish>Qué tan efectivas son las reparaciones de armadura. Valores más altos restauran más integridad por acción de reparación.</Spanish>
-           <French>L'efficacité des réparations d'armure. Des valeurs plus élevées restaurent plus d'intégrité par action de réparation.</French>
-           <Polish>Jak skuteczne są naprawy pancerza. Wyższe wartości przywracają więcej integralności na akcję naprawy.</Polish>
-           <Russian>Насколько эффективен ремонт брони. Более высокие значения восстанавливают больше целостности за одно действие ремонта.</Russian>
-           <Japanese>アーマー修理の効果。高い値ほど修理1回あたりの復元量が増加します。</Japanese>
-           <Chinese>护甲修复的效率。数值越高，每次修复恢复的耐久度越多。</Chinese>
-           <Chinesesimp>护甲修复的效率。数值越高，每次修复恢复的耐久度越多。</Chinesesimp>
-           <Korean>방어구 수리의 효과. 높을수록 수리당 더 많은 내구도를 복원합니다.</Korean>
+            <English>How effective armor repairs are. Higher values restore more integrity per repair action.</English>
+            <German>Wie effektiv Rüstungsreparaturen sind. Höhere Werte stellen mehr Integrität pro Reparaturaktion wieder her.</German>
+            <Spanish>Qué tan efectivas son las reparaciones de armadura. Valores más altos restauran más integridad por acción de reparación.</Spanish>
+            <French>L'efficacité des réparations d'armure. Des valeurs plus élevées restaurent plus d'intégrité par action de réparation.</French>
+            <Polish>Jak skuteczne są naprawy pancerza. Wyższe wartości przywracają więcej integralności na akcję naprawy.</Polish>
+            <Russian>Насколько эффективен ремонт брони. Более высокие значения восстанавливают больше целостности за одно действие ремонта.</Russian>
+            <Japanese>アーマー修理の効果。高い値ほど修理1回あたりの復元量が増加します。</Japanese>
+            <Chinese>护甲修复的效率。数值越高，每次修复恢复的耐久度越多。</Chinese>
+            <Chinesesimp>护甲修复的效率。数值越高，每次修复恢复的耐久度越多。</Chinesesimp>
+            <Korean>방어구 수리의 효과. 높을수록 수리당 더 많은 내구도를 복원합니다.</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Setting_MinIntegrity">
-           <English>Minimum Armor Integrity</English>
-           <German>Minimale Rüstungsintegrität</German>
-           <Spanish>Integridad Mínima de Armadura</Spanish>
-           <French>Intégrité Minimum d'Armure</French>
-           <Polish>Minimalna Integralność Pancerza</Polish>
-           <Russian>Минимальная целостность брони</Russian>
-           <Japanese>最小アーマー耐久度</Japanese>
-           <Chinese>最低护甲耐久度</Chinese>
-           <Chinesesimp>最低护甲耐久度</Chinesesimp>
-           <Korean>최소 방어구 내구도</Korean>
+            <English>Minimum Armor Integrity</English>
+            <German>Minimale Rüstungsintegrität</German>
+            <Spanish>Integridad Mínima de Armadura</Spanish>
+            <French>Intégrité Minimum d'Armure</French>
+            <Polish>Minimalna Integralność Pancerza</Polish>
+            <Russian>Минимальная целостность брони</Russian>
+            <Japanese>最小アーマー耐久度</Japanese>
+            <Chinese>最低护甲耐久度</Chinese>
+            <Chinesesimp>最低护甲耐久度</Chinesesimp>
+            <Korean>최소 방어구 내구도</Korean>
         </Key>
         <Key ID="STR_ACE_Armor_Degradation_Setting_MinIntegrity_Desc">
-           <English>Minimum armor integrity. Armor cannot degrade below this value. Set to 0 for complete degradation.</English>
-           <German>Minimale Rüstungsintegrität. Rüstung kann nicht unter diesen Wert abnutzen. Auf 0 setzen für vollständige Abnutzung.</German>
-           <Spanish>Integridad mínima de armadura. La armadura no puede degradarse por debajo de este valor. Establecer en 0 para degradación completa.</Spanish>
-           <French>Intégrité minimum d'armure. L'armure ne peut pas se dégrader en dessous de cette valeur. Régler sur 0 pour une dégradation complète.</French>
-           <Polish>Minimalna integralność pancerza. Pancerz nie może zdegradować poniżej tej wartości. Ustaw na 0 dla pełnej degradacji.</Polish>
-           <Russian>Минимальная целостность брони. Броня не может износиться ниже этого значения. Установите 0 для полного износа.</Russian>
-           <Japanese>最小アーマー耐久度。アーマーはこの値以下には劣化しません。0に設定すると完全に劣化します。</Japanese>
-           <Chinese>最低护甲耐久度。护甲不会损耗到此数值以下。设为0则允许完全损坏。</Chinese>
-           <Chinesesimp>最低护甲耐久度。护甲不会损耗到此数值以下。设为0则允许完全损坏。</Chinesesimp>
-           <Korean>최소 방어구 내구도. 방어구가 이 값 이하로 손상되지 않습니다. 0으로 설정하면 완전 손상이 가능합니다.</Korean>
+            <English>Minimum armor integrity. Armor cannot degrade below this value. Set to 0 for complete degradation.</English>
+            <German>Minimale Rüstungsintegrität. Rüstung kann nicht unter diesen Wert abnutzen. Auf 0 setzen für vollständige Abnutzung.</German>
+            <Spanish>Integridad mínima de armadura. La armadura no puede degradarse por debajo de este valor. Establecer en 0 para degradación completa.</Spanish>
+            <French>Intégrité minimum d'armure. L'armure ne peut pas se dégrader en dessous de cette valeur. Régler sur 0 pour une dégradation complète.</French>
+            <Polish>Minimalna integralność pancerza. Pancerz nie może zdegradować poniżej tej wartości. Ustaw na 0 dla pełnej degradacji.</Polish>
+            <Russian>Минимальная целостность брони. Броня не может износиться ниже этого значения. Установите 0 для полного износа.</Russian>
+            <Japanese>最小アーマー耐久度。アーマーはこの値以下には劣化しません。0に設定すると完全に劣化します。</Japanese>
+            <Chinese>最低护甲耐久度。护甲不会损耗到此数值以下。设为0则允许完全损坏。</Chinese>
+            <Chinesesimp>最低护甲耐久度。护甲不会损耗到此数值以下。设为0则允许完全损坏。</Chinesesimp>
+            <Korean>최소 방어구 내구도. 방어구가 이 값 이하로 손상되지 않습니다. 0으로 설정하면 완전 손상이 가능합니다.</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Setting_ZoneSpread">
-           <English>Zone Spread Factor</English>
-           <German>Zonenausbreitungsfaktor</German>
-           <Spanish>Factor de Dispersión de Zona</Spanish>
-           <French>Facteur de Propagation de Zone</French>
-           <Polish>Współczynnik Rozprzestrzeniania Strefy</Polish>
-           <Russian>Коэффициент распространения зоны</Russian>
-           <Japanese>ゾーン拡散係数</Japanese>
-           <Chinese>区域扩散系数</Chinese>
-           <Chinesesimp>区域扩散系数</Chinesesimp>
-           <Korean>구역 확산 계수</Korean>
+            <English>Zone Spread Factor</English>
+            <German>Zonenausbreitungsfaktor</German>
+            <Spanish>Factor de Dispersión de Zona</Spanish>
+            <French>Facteur de Propagation de Zone</French>
+            <Polish>Współczynnik Rozprzestrzeniania Strefy</Polish>
+            <Russian>Коэффициент распространения зоны</Russian>
+            <Japanese>ゾーン拡散係数</Japanese>
+            <Chinese>区域扩散系数</Chinese>
+            <Chinesesimp>区域扩散系数</Chinesesimp>
+            <Korean>구역 확산 계수</Korean>
         </Key>
         <Key ID="STR_ACE_Armor_Degradation_Setting_ZoneSpread_Desc">
-           <English>Chance for damage to spread to adjacent armor zones. Simulates fragmentation and spalling effects.</English>
-           <German>Chance, dass Schaden auf benachbarte Rüstungszonen übergreift. Simuliert Fragmentierung und Absplitterungseffekte.</German>
-           <Spanish>Probabilidad de que el daño se propague a zonas de armadura adyacentes. Simula efectos de fragmentación y astillamiento.</Spanish>
-           <French>Chance que les dégâts se propagent aux zones d'armure adjacentes. Simule les effets de fragmentation et d'écaillage.</French>
-           <Polish>Szansa na rozprzestrzenienie się uszkodzeń na sąsiednie strefy pancerza. Symuluje efekty fragmentacji i odpryskiwania.</Polish>
-           <Russian>Вероятность распространения повреждений на соседние зоны брони. Имитирует эффекты фрагментации и откалывания.</Russian>
-           <Japanese>隣接するアーマーゾーンへのダメージ拡散確率。破片効果とスポーリング効果をシミュレートします。</Japanese>
-           <Chinese>伤害扩散到相邻护甲区域的几率。模拟破片和崩落效果。</Chinese>
-           <Chinesesimp>伤害扩散到相邻护甲区域的几率。模拟破片和崩落效果。</Chinesesimp>
-           <Korean>인접한 방어구 구역으로 피해가 확산될 확률. 파편화 및 스폴링 효과를 시뮬레이션합니다.</Korean>
+            <English>Chance for damage to spread to adjacent armor zones. Simulates fragmentation and spalling effects.</English>
+            <German>Chance, dass Schaden auf benachbarte Rüstungszonen übergreift. Simuliert Fragmentierung und Absplitterungseffekte.</German>
+            <Spanish>Probabilidad de que el daño se propague a zonas de armadura adyacentes. Simula efectos de fragmentación y astillamiento.</Spanish>
+            <French>Chance que les dégâts se propagent aux zones d'armure adjacentes. Simule les effets de fragmentation et d'écaillage.</French>
+            <Polish>Szansa na rozprzestrzenienie się uszkodzeń na sąsiednie strefy pancerza. Symuluje efekty fragmentacji i odpryskiwania.</Polish>
+            <Russian>Вероятность распространения повреждений на соседние зоны брони. Имитирует эффекты фрагментации и откалывания.</Russian>
+            <Japanese>隣接するアーマーゾーンへのダメージ拡散確率。破片効果とスポーリング効果をシミュレートします。</Japanese>
+            <Chinese>伤害扩散到相邻护甲区域的几率。模拟破片和崩落效果。</Chinese>
+            <Chinesesimp>伤害扩散到相邻护甲区域的几率。模拟破片和崩落效果。</Chinesesimp>
+            <Korean>인접한 방어구 구역으로 피해가 확산될 확률. 파편화 및 스폴링 효과를 시뮬레이션합니다.</Korean>
         </Key>
-        
+
         <!-- Material Names -->
         <Key ID="STR_ACE_Armor_Degradation_Material_SoftKevlar">
-           <English>Soft Kevlar</English>
-           <German>Weicher Kevlar</German>
-           <Spanish>Kevlar Suave</Spanish>
-           <French>Kevlar Souple</French>
-           <Polish>Miękki Kevlar</Polish>
-           <Russian>Мягкий Кевлар</Russian>
-           <Japanese>ソフトケブラー</Japanese>
-           <Chinese>软凯夫拉</Chinese>
-           <Chinesesimp>软凯夫拉</Chinesesimp>
-           <Korean>소프트 케블라</Korean>
+            <English>Soft Kevlar</English>
+            <German>Weicher Kevlar</German>
+            <Spanish>Kevlar Suave</Spanish>
+            <French>Kevlar Souple</French>
+            <Polish>Miękki Kevlar</Polish>
+            <Russian>Мягкий Кевлар</Russian>
+            <Japanese>ソフトケブラー</Japanese>
+            <Chinese>软凯夫拉</Chinese>
+            <Chinesesimp>软凯夫拉</Chinesesimp>
+            <Korean>소프트 케블라</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Material_HardKevlar">
-           <English>Hard Kevlar</English>
-           <German>Harter Kevlar</German>
-           <Spanish>Kevlar Duro</Spanish>
-           <French>Kevlar Rigide</French>
-           <Polish>Twardy Kevlar</Polish>
-           <Russian>Жёсткий Кевлар</Russian>
-           <Japanese>ハードケブラー</Japanese>
-           <Chinese>硬凯夫拉</Chinese>
-           <Chinesesimp>硬凯夫拉</Chinesesimp>
-           <Korean>하드 케블라</Korean>
+            <English>Hard Kevlar</English>
+            <German>Harter Kevlar</German>
+            <Spanish>Kevlar Duro</Spanish>
+            <French>Kevlar Rigide</French>
+            <Polish>Twardy Kevlar</Polish>
+            <Russian>Жёсткий Кевлар</Russian>
+            <Japanese>ハードケブラー</Japanese>
+            <Chinese>硬凯夫拉</Chinese>
+            <Chinesesimp>硬凯夫拉</Chinesesimp>
+            <Korean>하드 케블라</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Material_Ceramic">
-           <English>Ceramic Plate</English>
-           <German>Keramikplatte</German>
-           <Spanish>Placa Cerámica</Spanish>
-           <French>Plaque Céramique</French>
-           <Polish>Płyta Ceramiczna</Polish>
-           <Russian>Керамическая Пластина</Russian>
-           <Japanese>セラミックプレート</Japanese>
-           <Chinese>陶瓷板</Chinese>
-           <Chinesesimp>陶瓷板</Chinesesimp>
-           <Korean>세라믹 플레이트</Korean>
+            <English>Ceramic Plate</English>
+            <German>Keramikplatte</German>
+            <Spanish>Placa Cerámica</Spanish>
+            <French>Plaque Céramique</French>
+            <Polish>Płyta Ceramiczna</Polish>
+            <Russian>Керамическая Пластина</Russian>
+            <Japanese>セラミックプレート</Japanese>
+            <Chinese>陶瓷板</Chinese>
+            <Chinesesimp>陶瓷板</Chinesesimp>
+            <Korean>세라믹 플레이트</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Material_Steel">
-           <English>Steel Plate</English>
-           <German>Stahlplatte</German>
-           <Spanish>Placa de Acero</Spanish>
-           <French>Plaque d'Acier</French>
-           <Polish>Płyta Stalowa</Polish>
-           <Russian>Стальная Пластина</Russian>
-           <Japanese>スチールプレート</Japanese>
-           <Chinese>钢板</Chinese>
-           <Chinesesimp>钢板</Chinesesimp>
-           <Korean>강철 플레이트</Korean>
+            <English>Steel Plate</English>
+            <German>Stahlplatte</German>
+            <Spanish>Placa de Acero</Spanish>
+            <French>Plaque d'Acier</French>
+            <Polish>Płyta Stalowa</Polish>
+            <Russian>Стальная Пластина</Russian>
+            <Japanese>スチールプレート</Japanese>
+            <Chinese>钢板</Chinese>
+            <Chinesesimp>钢板</Chinesesimp>
+            <Korean>강철 플레이트</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Material_Titanium">
-           <English>Titanium Plate</English>
-           <German>Titanplatte</German>
-           <Spanish>Placa de Titanio</Spanish>
-           <French>Plaque de Titane</French>
-           <Polish>Płyta Tytanowa</Polish>
-           <Russian>Титановая Пластина</Russian>
-           <Japanese>チタンプレート</Japanese>
-           <Chinese>钛板</Chinese>
-           <Chinesesimp>钛板</Chinesesimp>
-           <Korean>티타늄 플레이트</Korean>
+            <English>Titanium Plate</English>
+            <German>Titanplatte</German>
+            <Spanish>Placa de Titanio</Spanish>
+            <French>Plaque de Titane</French>
+            <Polish>Płyta Tytanowa</Polish>
+            <Russian>Титановая Пластина</Russian>
+            <Japanese>チタンプレート</Japanese>
+            <Chinese>钛板</Chinese>
+            <Chinesesimp>钛板</Chinesesimp>
+            <Korean>티타늄 플레이트</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Material_UHMWPE">
-           <English>UHMWPE (Dyneema/Spectra)</English>
-           <German>UHMWPE (Dyneema/Spectra)</German>
-           <Spanish>UHMWPE (Dyneema/Spectra)</Spanish>
-           <French>UHMWPE (Dyneema/Spectra)</French>
-           <Polish>UHMWPE (Dyneema/Spectra)</Polish>
-           <Russian>СВМПЭ (Dyneema/Spectra)</Russian>
-           <Japanese>UHMWPE (ダイニーマ/スペクトラ)</Japanese>
-           <Chinese>超高分子量聚乙烯 (Dyneema/Spectra)</Chinese>
-           <Chinesesimp>超高分子量聚乙烯 (Dyneema/Spectra)</Chinesesimp>
-           <Korean>UHMWPE (다이니마/스펙트라)</Korean>
+            <English>UHMWPE (Dyneema/Spectra)</English>
+            <German>UHMWPE (Dyneema/Spectra)</German>
+            <Spanish>UHMWPE (Dyneema/Spectra)</Spanish>
+            <French>UHMWPE (Dyneema/Spectra)</French>
+            <Polish>UHMWPE (Dyneema/Spectra)</Polish>
+            <Russian>СВМПЭ (Dyneema/Spectra)</Russian>
+            <Japanese>UHMWPE (ダイニーマ/スペクトラ)</Japanese>
+            <Chinese>超高分子量聚乙烯 (Dyneema/Spectra)</Chinese>
+            <Chinesesimp>超高分子量聚乙烯 (Dyneema/Spectra)</Chinesesimp>
+            <Korean>UHMWPE (다이니마/스펙트라)</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_Material_Composite">
-           <English>Composite (Ceramic/PE)</English>
-           <German>Verbund (Keramik/PE)</German>
-           <Spanish>Compuesto (Cerámica/PE)</Spanish>
-           <French>Composite (Céramique/PE)</French>
-           <Polish>Kompozyt (Ceramika/PE)</Polish>
-           <Russian>Композит (Керамика/ПЭ)</Russian>
-           <Japanese>コンポジット (セラミック/PE)</Japanese>
-           <Chinese>复合材料 (陶瓷/PE)</Chinese>
-           <Chinesesimp>复合材料 (陶瓷/PE)</Chinesesimp>
-           <Korean>복합재 (세라믹/PE)</Korean>
+            <English>Composite (Ceramic/PE)</English>
+            <German>Verbund (Keramik/PE)</German>
+            <Spanish>Compuesto (Cerámica/PE)</Spanish>
+            <French>Composite (Céramique/PE)</French>
+            <Polish>Kompozyt (Ceramika/PE)</Polish>
+            <Russian>Композит (Керамика/ПЭ)</Russian>
+            <Japanese>コンポジット (セラミック/PE)</Japanese>
+            <Chinese>复合材料 (陶瓷/PE)</Chinese>
+            <Chinesesimp>复合材料 (陶瓷/PE)</Chinesesimp>
+            <Korean>복합재 (세라믹/PE)</Korean>
         </Key>
-        
+
         <!-- Status Messages -->
         <Key ID="STR_ACE_Armor_Degradation_ArmorDamaged">
-           <English>Armor Damaged</English>
-           <German>Rüstung beschädigt</German>
-           <Spanish>Armadura Dañada</Spanish>
-           <French>Armure Endommagée</French>
-           <Polish>Pancerz Uszkodzony</Polish>
-           <Russian>Броня Повреждена</Russian>
-           <Japanese>アーマー損傷</Japanese>
-           <Chinese>护甲受损</Chinese>
-           <Chinesesimp>护甲受损</Chinesesimp>
-           <Korean>방어구 손상됨</Korean>
+            <English>Armor Damaged</English>
+            <German>Rüstung beschädigt</German>
+            <Spanish>Armadura Dañada</Spanish>
+            <French>Armure Endommagée</French>
+            <Polish>Pancerz Uszkodzony</Polish>
+            <Russian>Броня Повреждена</Russian>
+            <Japanese>アーマー損傷</Japanese>
+            <Chinese>护甲受损</Chinese>
+            <Chinesesimp>护甲受损</Chinesesimp>
+            <Korean>방어구 손상됨</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_ArmorCritical">
-           <English>Armor Critical!</English>
-           <German>Rüstung kritisch!</German>
-           <Spanish>¡Armadura Crítica!</Spanish>
-           <French>Armure Critique!</French>
-           <Polish>Pancerz Krytyczny!</Polish>
-           <Russian>Броня в Критическом Состоянии!</Russian>
-           <Japanese>アーマー危険!</Japanese>
-           <Chinese>护甲严重受损!</Chinese>
-           <Chinesesimp>护甲严重受损!</Chinesesimp>
-           <Korean>방어구 위험!</Korean>
+            <English>Armor Critical!</English>
+            <German>Rüstung kritisch!</German>
+            <Spanish>¡Armadura Crítica!</Spanish>
+            <French>Armure Critique!</French>
+            <Polish>Pancerz Krytyczny!</Polish>
+            <Russian>Броня в Критическом Состоянии!</Russian>
+            <Japanese>アーマー危険!</Japanese>
+            <Chinese>护甲严重受损!</Chinese>
+            <Chinesesimp>护甲严重受损!</Chinesesimp>
+            <Korean>방어구 위험!</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_ArmorDestroyed">
-           <English>Armor Destroyed</English>
-           <German>Rüstung zerstört</German>
-           <Spanish>Armadura Destruida</Spanish>
-           <French>Armure Détruite</French>
-           <Polish>Pancerz Zniszczony</Polish>
-           <Russian>Броня Уничтожена</Russian>
-           <Japanese>アーマー破壊</Japanese>
-           <Chinese>护甲已损毁</Chinese>
-           <Chinesesimp>护甲已损毁</Chinesesimp>
-           <Korean>방어구 파괴됨</Korean>
+            <English>Armor Destroyed</English>
+            <German>Rüstung zerstört</German>
+            <Spanish>Armadura Destruida</Spanish>
+            <French>Armure Détruite</French>
+            <Polish>Pancerz Zniszczony</Polish>
+            <Russian>Броня Уничтожена</Russian>
+            <Japanese>アーマー破壊</Japanese>
+            <Chinese>护甲已损毁</Chinese>
+            <Chinesesimp>护甲已损毁</Chinesesimp>
+            <Korean>방어구 파괴됨</Korean>
         </Key>
-        
+
         <Key ID="STR_ACE_Armor_Degradation_ArmorRepaired">
-           <English>Armor Repaired</English>
-           <German>Rüstung repariert</German>
-           <Spanish>Armadura Reparada</Spanish>
-           <French>Armure Réparée</French>
-           <Polish>Pancerz Naprawiony</Polish>
-           <Russian>Броня Отремонтирована</Russian>
-           <Japanese>アーマー修理完了</Japanese>
-           <Chinese>护甲已修复</Chinese>
-           <Chinesesimp>护甲已修复</Chinesesimp>
-           <Korean>방어구 수리됨</Korean>
+            <English>Armor Repaired</English>
+            <German>Rüstung repariert</German>
+            <Spanish>Armadura Reparada</Spanish>
+            <French>Armure Réparée</French>
+            <Polish>Pancerz Naprawiony</Polish>
+            <Russian>Броня Отремонтирована</Russian>
+            <Japanese>アーマー修理完了</Japanese>
+            <Chinese>护甲已修复</Chinese>
+            <Chinesesimp>护甲已修复</Chinesesimp>
+            <Korean>방어구 수리됨</Korean>
         </Key>
     </Package>
 </Project>
