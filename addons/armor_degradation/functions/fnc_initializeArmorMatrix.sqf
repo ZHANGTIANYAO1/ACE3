@@ -28,6 +28,13 @@ if (isNull _unit) exitWith {
     false
 };
 
+// Cooldown check to prevent rapid re-initialization
+private _lastInit = _unit getVariable [QGVAR(lastInitTime), -1];
+if (time - _lastInit < 1) exitWith {
+    TRACE_1("initializeArmorMatrix: Cooldown active for %1",_unit);
+    true
+};
+
 // Skip if already initialized and loadout hasn't changed
 private _currentLoadoutStr = format ["%1_%2_%3", vest _unit, uniform _unit, headgear _unit];
 private _storedLoadoutStr = _unit getVariable [QGVAR(loadoutStr), ""];
@@ -36,6 +43,9 @@ if (_currentLoadoutStr == _storedLoadoutStr && _storedLoadoutStr != "") exitWith
     TRACE_1("Armor matrix already initialized for current loadout",_unit);
     true
 };
+
+// Set initialization time
+_unit setVariable [QGVAR(lastInitTime), time, false];
 
 // Create armor state hashmap for this unit
 private _armorState = createHashMap;
@@ -46,8 +56,20 @@ private _fnc_initArmorPiece = {
 
     if (_className == "") exitWith {};
 
-    // Get base armor value
-    private _baseArmor = [_className, _hitpoint] call EFUNC(medical_engine,getItemArmor);
+    // Get base armor value - try ACE medical_engine first, fallback to config lookup
+    private _baseArmor = 0;
+    if (!isNil "ace_medical_engine_fnc_getItemArmor") then {
+        _baseArmor = [_className, _hitpoint] call ace_medical_engine_fnc_getItemArmor;
+    } else {
+        // Fallback: get armor from config directly
+        private _configPath = configFile >> "CfgWeapons" >> _className;
+        if (!isClass _configPath) then { _configPath = configFile >> "CfgVehicles" >> _className };
+        if (isClass _configPath) then {
+            private _hitpointConfig = _configPath >> "ItemInfo" >> "HitpointsProtectionInfo" >> "Chest";
+            if (_isHeadgear) then { _hitpointConfig = _configPath >> "ItemInfo" >> "HitpointsProtectionInfo" >> "Head" };
+            _baseArmor = getNumber (_hitpointConfig >> "armor");
+        };
+    };
 
     // Skip if no armor protection (except for vests which always have some structure)
     if (_baseArmor <= 0 && _armorType != "vest") exitWith {};
