@@ -10,6 +10,15 @@
 ] call CBA_fnc_addSetting;
 
 [
+    QGVAR(enableForAI),
+    "CHECKBOX",
+    [LSTRING(Setting_EnableForAI), LSTRING(Setting_EnableForAI_Desc)],
+    [ELSTRING(medical,Category), LSTRING(Category)],
+    false,
+    1
+] call CBA_fnc_addSetting;
+
+[
     QGVAR(degradationMultiplier),
     "SLIDER",
     [LSTRING(Setting_DegradationMultiplier), LSTRING(Setting_DegradationMultiplier_Desc)],

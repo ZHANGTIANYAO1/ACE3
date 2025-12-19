@@ -29,10 +29,10 @@ if (isNull _unit) exitWith {
 };
 
 // Skip if already initialized and loadout hasn't changed
-private _currentLoadoutHash = hashValue [vest _unit, uniform _unit, headgear _unit];
-private _storedHash = _unit getVariable [QGVAR(loadoutHash), -1];
+private _currentLoadoutStr = format ["%1_%2_%3", vest _unit, uniform _unit, headgear _unit];
+private _storedLoadoutStr = _unit getVariable [QGVAR(loadoutStr), ""];
 
-if (_currentLoadoutHash == _storedHash) exitWith {
+if (_currentLoadoutStr == _storedLoadoutStr && _storedLoadoutStr != "") exitWith {
     TRACE_1("Armor matrix already initialized for current loadout",_unit);
     true
 };
@@ -120,10 +120,11 @@ private _headgearClass = headgear _unit;
 
 // Store armor state on unit
 _unit setVariable [QGVAR(armorState), _armorState, true];
-_unit setVariable [QGVAR(loadoutHash), _currentLoadoutHash, true];
+_unit setVariable [QGVAR(loadoutStr), _currentLoadoutStr, false];
 
-// Add to global cache for performance
-GVAR(armorMatrixCache) set [hashValue _unit, _armorState];
+// Add to global cache for performance (use unit netId for MP compatibility)
+private _cacheKey = if (isMultiplayer) then { netId _unit } else { str _unit };
+GVAR(armorMatrixCache) set [_cacheKey, _armorState];
 
 INFO_1("Armor matrix initialized for %1",_unit);
 

@@ -25,13 +25,14 @@ params [
 if (isNull _unit) exitWith {};
 if (!local _unit) exitWith {};
 
-// Get current loadout hash
-private _newHash = hashValue [vest _unit, uniform _unit, headgear _unit];
-private _oldHash = _unit getVariable [QGVAR(loadoutHash), -1];
+// Get current loadout as string for comparison
+private _newLoadoutStr = format ["%1_%2_%3", vest _unit, uniform _unit, headgear _unit];
+private _oldLoadoutStr = _unit getVariable [QGVAR(loadoutStr), ""];
 
 // Only reinitialize if loadout actually changed
-if (_newHash != _oldHash) then {
-    TRACE_2("Loadout changed, reinitializing armor matrix",_unit,_newHash);
+if (_newLoadoutStr != _oldLoadoutStr) then {
+    _unit setVariable [QGVAR(loadoutStr), _newLoadoutStr, false];
+    TRACE_2("Loadout changed, reinitializing armor matrix",_unit,_newLoadoutStr);
 
     // Preserve degradation for items that didn't change
     private _oldState = _unit getVariable [QGVAR(armorState), createHashMap];

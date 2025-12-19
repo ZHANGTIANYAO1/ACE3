@@ -45,6 +45,31 @@
             <Korean>방어구 손상 시스템을 활성화합니다. 피격시 방어구 효과가 감소합니다.</Korean>
         </Key>
         
+        <Key ID="STR_ACE_Armor_Degradation_Setting_EnableForAI">
+            <English>Enable for AI Units</English>
+            <German>Für KI-Einheiten aktivieren</German>
+            <Spanish>Activar para Unidades IA</Spanish>
+            <French>Activer pour les Unités IA</French>
+            <Polish>Włącz dla Jednostek AI</Polish>
+            <Russian>Включить для ИИ юнитов</Russian>
+            <Japanese>AIユニットで有効化</Japanese>
+            <Chinese>为AI单位启用</Chinese>
+            <Chinesesimp>为AI单位启用</Chinesesimp>
+            <Korean>AI 유닛에 활성화</Korean>
+        </Key>
+        <Key ID="STR_ACE_Armor_Degradation_Setting_EnableForAI_Desc">
+            <English>Apply armor degradation to AI units. May impact performance with many units. Disabled by default.</English>
+            <German>Rüstungsabnutzung auf KI-Einheiten anwenden. Kann bei vielen Einheiten die Leistung beeinträchtigen. Standardmäßig deaktiviert.</German>
+            <Spanish>Aplicar degradación de armadura a unidades IA. Puede afectar el rendimiento con muchas unidades. Desactivado por defecto.</Spanish>
+            <French>Appliquer la dégradation d'armure aux unités IA. Peut impacter les performances avec beaucoup d'unités. Désactivé par défaut.</French>
+            <Polish>Zastosuj degradację pancerza do jednostek AI. Może wpłynąć na wydajność przy wielu jednostkach. Domyślnie wyłączone.</Polish>
+            <Russian>Применять износ брони к ИИ юнитам. Может влиять на производительность при большом количестве юнитов. По умолчанию отключено.</Russian>
+            <Japanese>AIユニットにアーマー劣化を適用します。多数のユニットではパフォーマンスに影響する場合があります。デフォルトで無効。</Japanese>
+            <Chinese>对AI单位应用护甲损耗。大量单位时可能影响性能。默认禁用。</Chinese>
+            <Chinesesimp>对AI单位应用护甲损耗。大量单位时可能影响性能。默认禁用。</Chinesesimp>
+            <Korean>AI 유닛에 방어구 손상을 적용합니다. 유닛이 많을 경우 성능에 영향을 줄 수 있습니다. 기본적으로 비활성화됨.</Korean>
+        </Key>
+        
         <Key ID="STR_ACE_Armor_Degradation_Setting_DegradationMultiplier">
             <English>Degradation Multiplier</English>
             <German>Abnutzungsmultiplikator</German>

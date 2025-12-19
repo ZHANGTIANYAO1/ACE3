@@ -9,6 +9,7 @@ ADDON = false;
 
 // Initialize global variables
 GVAR(enabled) = true;
+GVAR(enableForAI) = false; // Disabled by default for performance
 
 // Armor matrix cache - stores 3D matrices for each unit's equipped armor
 // Format: HashMap<unit, HashMap<armorType, 3DMatrix>>
