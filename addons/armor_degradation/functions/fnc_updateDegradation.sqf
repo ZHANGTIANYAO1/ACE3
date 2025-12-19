@@ -41,7 +41,7 @@ private _matrix = _armorData get "matrix";
     _x params ["_layer", "_row", "_col", "_newIntegrity"];
 
     private _cell = [_matrix, _layer, _row, _col] call FUNC(getMatrixValue);
-    if !(_cell isEqualTo []) then {
+    if (_cell != []) then {
         _cell set [0, _newIntegrity];
         _cell set [3, time];
     };
