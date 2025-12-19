@@ -58,21 +58,20 @@ private _processMatrix = {
 
 if (_scheduled && count _matrices > 2) then {
     // Scheduled execution for large batches - spread across frames
-    private _processIndex = 0;
     [{
         params ["_args", "_handle"];
-        _args params ["_matrices", "_operation", "_results", "_processIndex"];
+        _args params ["_matricesLocal", "_operationLocal", "_resultsLocal", "_processIndexLocal", "_processMatrixLocal"];
 
-        if (_processIndex >= count _matrices) exitWith {
+        if (_processIndexLocal >= count _matricesLocal) exitWith {
             [_handle] call CBA_fnc_removePerFrameHandler;
         };
 
-        private _matrix = _matrices select _processIndex;
-        private _matrixResult = [_matrix, _operation] call _processMatrix;
-        _results pushBack _matrixResult;
+        private _matrix = _matricesLocal select _processIndexLocal;
+        private _matrixResult = [_matrix, _operationLocal] call _processMatrixLocal;
+        _resultsLocal pushBack _matrixResult;
 
-        _args set [3, _processIndex + 1];
-    }, 0, [_matrices, _operation, _results, 0]] call CBA_fnc_addPerFrameHandler;
+        _args set [3, _processIndexLocal + 1];
+    }, 0, [_matrices, _operation, _results, 0, _processMatrix]] call CBA_fnc_addPerFrameHandler;
 } else {
     // Immediate execution for small batches
     {
