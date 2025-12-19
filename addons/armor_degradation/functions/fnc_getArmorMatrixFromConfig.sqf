@@ -49,11 +49,12 @@ if (isClass _configPath) then {
         if (isClass _layerConfig) then {
             for "_r" from 0 to (_rows - 1) do {
                 private _rowData = getArray (_layerConfig >> (format ["row%1", _r]));
+                private _rowDataCount = count _rowData;
 
                 // Validate and pad row data if needed
-                if (count _rowData < _cols) then {
-                    private _lastVal = if (count _rowData > 0) then { _rowData select (count _rowData - 1) } else { 1 };
-                    for "_i" from (count _rowData) to (_cols - 1) do {
+                if (_rowDataCount < _cols) then {
+                    private _lastVal = if (_rowDataCount > 0) then { _rowData select (_rowDataCount - 1) } else { 1 };
+                    for "_i" from _rowDataCount to (_cols - 1) do {
                         _rowData pushBack _lastVal;
                     };
                 };
@@ -110,10 +111,11 @@ if (isNil "_result") then {
                 if (isClass _layerConfig) then {
                     for "_r" from 0 to (_rows - 1) do {
                         private _rowData = getArray (_layerConfig >> (format ["row%1", _r]));
+                        private _rowDataCount = count _rowData;
 
-                        if (count _rowData < _cols) then {
-                            private _lastVal = if (count _rowData > 0) then { _rowData select (count _rowData - 1) } else { 1 };
-                            for "_i" from (count _rowData) to (_cols - 1) do {
+                        if (_rowDataCount < _cols) then {
+                            private _lastVal = if (_rowDataCount > 0) then { _rowData select (_rowDataCount - 1) } else { 1 };
+                            for "_i" from _rowDataCount to (_cols - 1) do {
                                 _rowData pushBack _lastVal;
                             };
                         };
