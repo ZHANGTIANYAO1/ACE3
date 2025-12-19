@@ -33,6 +33,10 @@ PREP(handleLoadoutChange);
 PREP(getArmorMaterial);
 PREP(getArmorFromEquipment);
 
+// Config and auto-generation
+PREP(getArmorMatrixFromConfig);
+PREP(generateMatrixFromArmorParams);
+
 // Repair and replacement
 PREP(repairArmor);
 PREP(replaceArmor);

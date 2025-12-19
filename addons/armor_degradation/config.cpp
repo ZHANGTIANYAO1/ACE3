@@ -17,3 +17,4 @@ class CfgPatches {
 
 #include "CfgEventHandlers.hpp"
 #include "ACE_Armor_Materials.hpp"
+#include "ACE_Armor_Matrix_Config.hpp"
