@@ -34,7 +34,7 @@ if (isNull _unit) exitWith {
 private _lastInit = _unit getVariable [QGVAR(lastInitTime), -1];
 private _timeSinceInit = time - _lastInit;
 if (_timeSinceInit < 1) exitWith {
-    INFO_2("Advanced Armor: Cooldown active for %1 (%.2f sec since last init)",_unit,_timeSinceInit);
+    INFO_2("Advanced Armor: Cooldown active for %1 (%2 sec since last init)",_unit,_timeSinceInit);
     true
 };
 
