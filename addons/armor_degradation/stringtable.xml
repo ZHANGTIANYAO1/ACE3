@@ -3,20 +3,20 @@
     <Package name="Armor_Degradation">
         <!-- Category -->
         <Key ID="STR_ACE_Armor_Degradation_Category">
-            <English>Armor Degradation</English>
-            <German>Rüstungsabnutzung</German>
-            <Spanish>Degradación de Armadura</Spanish>
-            <French>Dégradation d'Armure</French>
-            <Polish>Degradacja Pancerza</Polish>
-            <Russian>Износ Брони</Russian>
-            <Japanese>アーマー劣化</Japanese>
-            <Chinese>护甲损耗</Chinese>
-            <Chinesesimp>护甲损耗</Chinesesimp>
-            <Korean>방어구 손상</Korean>
-            <Portuguese>Degradação de Armadura</Portuguese>
-            <Italian>Degradazione Armatura</Italian>
-            <Czech>Opotřebení Zbroje</Czech>
-            <Turkish>Zırh Aşınması</Turkish>
+            <English>Advanced Armor</English>
+            <German>Erweiterte Rüstung</German>
+            <Spanish>Armadura Avanzada</Spanish>
+            <French>Armure Avancée</French>
+            <Polish>Zaawansowany Pancerz</Polish>
+            <Russian>Продвинутая Броня</Russian>
+            <Japanese>高度アーマー</Japanese>
+            <Chinese>高级护甲</Chinese>
+            <Chinesesimp>高级护甲</Chinesesimp>
+            <Korean>고급 방어구</Korean>
+            <Portuguese>Armadura Avançada</Portuguese>
+            <Italian>Armatura Avanzata</Italian>
+            <Czech>Pokročilé Brnění</Czech>
+            <Turkish>Gelişmiş Zırh</Turkish>
         </Key>
         
         <!-- Settings -->

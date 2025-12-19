@@ -23,15 +23,18 @@
 
 params [["_unit", objNull, [objNull]]];
 
+INFO_1("Advanced Armor: initializeArmorMatrix called for %1",_unit);
+
 if (isNull _unit) exitWith {
-    WARNING("initializeArmorMatrix: Null unit provided");
+    WARNING("Advanced Armor: initializeArmorMatrix - Null unit provided");
     false
 };
 
 // Cooldown check to prevent rapid re-initialization
 private _lastInit = _unit getVariable [QGVAR(lastInitTime), -1];
-if (time - _lastInit < 1) exitWith {
-    TRACE_1("initializeArmorMatrix: Cooldown active for %1",_unit);
+private _timeSinceInit = time - _lastInit;
+if (_timeSinceInit < 1) exitWith {
+    INFO_2("Advanced Armor: Cooldown active for %1 (%.2f sec since last init)",_unit,_timeSinceInit);
     true
 };
 
@@ -39,13 +42,16 @@ if (time - _lastInit < 1) exitWith {
 private _currentLoadoutStr = format ["%1_%2_%3", vest _unit, uniform _unit, headgear _unit];
 private _storedLoadoutStr = _unit getVariable [QGVAR(loadoutStr), ""];
 
+INFO_2("Advanced Armor: Current loadout: %1, Stored loadout: %2",_currentLoadoutStr,_storedLoadoutStr);
+
 if (_currentLoadoutStr == _storedLoadoutStr && _storedLoadoutStr != "") exitWith {
-    TRACE_1("Armor matrix already initialized for current loadout",_unit);
+    INFO_1("Advanced Armor: Matrix already initialized for current loadout %1",_unit);
     true
 };
 
 // Set initialization time
 _unit setVariable [QGVAR(lastInitTime), time, false];
+INFO_1("Advanced Armor: Starting matrix generation for %1",_unit);
 
 // Create armor state hashmap for this unit
 private _armorState = createHashMap;
@@ -130,14 +136,17 @@ private _fnc_initArmorPiece = {
 
 // Initialize vest armor matrix
 private _vestClass = vest _unit;
+INFO_1("Advanced Armor: Processing vest: %1",_vestClass);
 [_vestClass, "vest", "HitChest", false] call _fnc_initArmorPiece;
 
 // Initialize uniform armor matrix (if provides protection)
 private _uniformClass = uniform _unit;
+INFO_1("Advanced Armor: Processing uniform: %1",_uniformClass);
 [_uniformClass, "uniform", "HitChest", false] call _fnc_initArmorPiece;
 
 // Initialize headgear armor matrix
 private _headgearClass = headgear _unit;
+INFO_1("Advanced Armor: Processing headgear: %1",_headgearClass);
 [_headgearClass, "headgear", "HitHead", true] call _fnc_initArmorPiece;
 
 // Store armor state on unit
@@ -148,6 +157,6 @@ _unit setVariable [QGVAR(loadoutStr), _currentLoadoutStr, false];
 private _cacheKey = if (isMultiplayer) then { netId _unit } else { str _unit };
 GVAR(armorMatrixCache) set [_cacheKey, _armorState];
 
-INFO_1("Armor matrix initialized for %1",_unit);
+INFO_2("Advanced Armor: Matrix initialization COMPLETE for %1, armor pieces: %2",_unit,count keys _armorState);
 
 true

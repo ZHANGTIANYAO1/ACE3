@@ -22,12 +22,19 @@ params [
     ["_newLoadout", [], [[]]]
 ];
 
-if (isNull _unit) exitWith {};
-if (!local _unit) exitWith {};
+if (isNull _unit) exitWith {
+    INFO("Advanced Armor: handleLoadoutChange - null unit, exiting");
+};
+if (!local _unit) exitWith {
+    INFO("Advanced Armor: handleLoadoutChange - non-local unit, exiting");
+};
 
 // Cooldown check - prevent rapid re-initialization (min 0.5 sec between calls)
 private _lastUpdate = _unit getVariable [QGVAR(lastLoadoutUpdate), -1];
-if (time - _lastUpdate < 0.5) exitWith {};
+private _timeSinceUpdate = time - _lastUpdate;
+if (_timeSinceUpdate < 0.5) exitWith {
+    // Silent exit for cooldown - this happens frequently
+};
 
 // Get current loadout as string for comparison
 private _newLoadoutStr = format ["%1_%2_%3", vest _unit, uniform _unit, headgear _unit];
@@ -35,9 +42,10 @@ private _oldLoadoutStr = _unit getVariable [QGVAR(loadoutStr), ""];
 
 // Only reinitialize if loadout actually changed
 if (_newLoadoutStr != _oldLoadoutStr) then {
+    INFO_2("Advanced Armor: Loadout CHANGED for %1: %2",_unit,_newLoadoutStr);
+    INFO_1("Advanced Armor: Old loadout was: %1",_oldLoadoutStr);
     _unit setVariable [QGVAR(loadoutStr), _newLoadoutStr, false];
     _unit setVariable [QGVAR(lastLoadoutUpdate), time, false];
-    TRACE_2("Loadout changed, reinitializing armor matrix",_unit,_newLoadoutStr);
 
     // Preserve degradation for items that didn't change
     private _oldState = _unit getVariable [QGVAR(armorState), createHashMap];
