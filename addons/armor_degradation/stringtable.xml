@@ -18,7 +18,7 @@
             <Czech>Opotřebení Zbroje</Czech>
             <Turkish>Zırh Aşınması</Turkish>
         </Key>
-
+        
         <!-- Settings -->
         <Key ID="STR_ACE_Armor_Degradation_Setting_Enabled">
             <English>Enable Armor Degradation</English>
@@ -44,7 +44,7 @@
             <Chinesesimp>启用护甲损耗系统。护甲被击中时会降低防护效果。</Chinesesimp>
             <Korean>방어구 손상 시스템을 활성화합니다. 피격시 방어구 효과가 감소합니다.</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Setting_DegradationMultiplier">
             <English>Degradation Multiplier</English>
             <German>Abnutzungsmultiplikator</German>
@@ -69,7 +69,7 @@
             <Chinesesimp>护甲损耗速率倍率。数值越高，损耗越快。</Chinesesimp>
             <Korean>방어구 손상 속도 배율. 높을수록 손상이 빨라집니다.</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Setting_CeramicDegradation">
             <English>Ceramic Degradation Rate</English>
             <German>Keramik-Abnutzungsrate</German>
@@ -94,7 +94,7 @@
             <Chinesesimp>陶瓷护甲板的基础损耗率。陶瓷损耗更快，但提供更好的初始防护。</Chinesesimp>
             <Korean>세라믹 방호판의 기본 손상률. 세라믹은 빠르게 손상되지만 초기 방호력이 우수합니다.</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Setting_SteelDegradation">
             <English>Steel Degradation Rate</English>
             <German>Stahl-Abnutzungsrate</German>
@@ -119,7 +119,7 @@
             <Chinesesimp>钢制护甲板的基础损耗率。钢板更耐久但更重。</Chinesesimp>
             <Korean>강철 방호판의 기본 손상률. 강철은 내구성이 높지만 무겁습니다.</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Setting_ShowHUD">
             <English>Show Armor Status HUD</English>
             <German>Rüstungsstatus-HUD anzeigen</German>
@@ -144,7 +144,7 @@
             <Chinesesimp>在HUD上显示护甲损耗状态。</Chinesesimp>
             <Korean>HUD에 방어구 손상 상태를 표시합니다.</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Setting_EnableRepair">
             <English>Enable Armor Repair</English>
             <German>Rüstungsreparatur aktivieren</German>
@@ -169,7 +169,7 @@
             <Chinesesimp>允许修复护甲。修复上限取决于材料类型。</Chinesesimp>
             <Korean>방어구 수리를 허용합니다. 수리 한계는 재질에 따라 다릅니다.</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Setting_RepairEffectiveness">
             <English>Repair Effectiveness</English>
             <German>Reparatureffektivität</German>
@@ -194,7 +194,7 @@
             <Chinesesimp>护甲修复的效率。数值越高，每次修复恢复的耐久度越多。</Chinesesimp>
             <Korean>방어구 수리의 효과. 높을수록 수리당 더 많은 내구도를 복원합니다.</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Setting_MinIntegrity">
             <English>Minimum Armor Integrity</English>
             <German>Minimale Rüstungsintegrität</German>
@@ -219,7 +219,7 @@
             <Chinesesimp>最低护甲耐久度。护甲不会损耗到此数值以下。设为0则允许完全损坏。</Chinesesimp>
             <Korean>최소 방어구 내구도. 방어구가 이 값 이하로 손상되지 않습니다. 0으로 설정하면 완전 손상이 가능합니다.</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Setting_ZoneSpread">
             <English>Zone Spread Factor</English>
             <German>Zonenausbreitungsfaktor</German>
@@ -244,7 +244,7 @@
             <Chinesesimp>伤害扩散到相邻护甲区域的几率。模拟破片和崩落效果。</Chinesesimp>
             <Korean>인접한 방어구 구역으로 피해가 확산될 확률. 파편화 및 스폴링 효과를 시뮬레이션합니다.</Korean>
         </Key>
-
+        
         <!-- Material Names -->
         <Key ID="STR_ACE_Armor_Degradation_Material_SoftKevlar">
             <English>Soft Kevlar</English>
@@ -258,7 +258,7 @@
             <Chinesesimp>软凯夫拉</Chinesesimp>
             <Korean>소프트 케블라</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Material_HardKevlar">
             <English>Hard Kevlar</English>
             <German>Harter Kevlar</German>
@@ -271,7 +271,7 @@
             <Chinesesimp>硬凯夫拉</Chinesesimp>
             <Korean>하드 케블라</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Material_Ceramic">
             <English>Ceramic Plate</English>
             <German>Keramikplatte</German>
@@ -284,7 +284,7 @@
             <Chinesesimp>陶瓷板</Chinesesimp>
             <Korean>세라믹 플레이트</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Material_Steel">
             <English>Steel Plate</English>
             <German>Stahlplatte</German>
@@ -297,7 +297,7 @@
             <Chinesesimp>钢板</Chinesesimp>
             <Korean>강철 플레이트</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Material_Titanium">
             <English>Titanium Plate</English>
             <German>Titanplatte</German>
@@ -310,7 +310,7 @@
             <Chinesesimp>钛板</Chinesesimp>
             <Korean>티타늄 플레이트</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Material_UHMWPE">
             <English>UHMWPE (Dyneema/Spectra)</English>
             <German>UHMWPE (Dyneema/Spectra)</German>
@@ -323,7 +323,7 @@
             <Chinesesimp>超高分子量聚乙烯 (Dyneema/Spectra)</Chinesesimp>
             <Korean>UHMWPE (다이니마/스펙트라)</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_Material_Composite">
             <English>Composite (Ceramic/PE)</English>
             <German>Verbund (Keramik/PE)</German>
@@ -336,7 +336,7 @@
             <Chinesesimp>复合材料 (陶瓷/PE)</Chinesesimp>
             <Korean>복합재 (세라믹/PE)</Korean>
         </Key>
-
+        
         <!-- Status Messages -->
         <Key ID="STR_ACE_Armor_Degradation_ArmorDamaged">
             <English>Armor Damaged</English>
@@ -350,7 +350,7 @@
             <Chinesesimp>护甲受损</Chinesesimp>
             <Korean>방어구 손상됨</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_ArmorCritical">
             <English>Armor Critical!</English>
             <German>Rüstung kritisch!</German>
@@ -363,7 +363,7 @@
             <Chinesesimp>护甲严重受损!</Chinesesimp>
             <Korean>방어구 위험!</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_ArmorDestroyed">
             <English>Armor Destroyed</English>
             <German>Rüstung zerstört</German>
@@ -376,7 +376,7 @@
             <Chinesesimp>护甲已损毁</Chinesesimp>
             <Korean>방어구 파괴됨</Korean>
         </Key>
-
+        
         <Key ID="STR_ACE_Armor_Degradation_ArmorRepaired">
             <English>Armor Repaired</English>
             <German>Rüstung repariert</German>
